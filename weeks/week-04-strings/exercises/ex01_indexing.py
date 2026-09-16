@@ -7,6 +7,9 @@ Mục tiêu: Thành thạo truy cập và cắt chuỗi
 # TODO 1: Cho s = "Python Journey"
 # In ra: ký tự đầu, ký tự cuối (dùng index âm), 5 ký tự đầu
 s = "Python Journey"
+print(s[0])  # ký tự đầu
+print(s[-1])  # ký tự cuối
+print(s[:5])  # 5 ký tự đầu
 
 
 # TODO 2: Dùng slicing để:
