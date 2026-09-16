@@ -19,7 +19,6 @@ elif tuoi <= 64:
     print("Người lớn")
 else:
     print("Người cao tuổi")
-
 # TODO 2: Nhập điểm (0-10), xếp loại:
 # >= 9: Xuất sắc, >= 8: Giỏi, >= 6.5: Khá, >= 5: TB, < 5: Yếu
 diem= float(input("Nhập điểm (0-10): "))
@@ -51,7 +50,6 @@ else:
 nhap_1 = float(input("Nhập số thứ nhất: "))
 nhap_2 = float(input("Nhập số thứ hai: "))  
 nhap_3 = float(input("Nhập số thứ ba: "))
-
 if nhap_1 >= nhap_2 and nhap_1 >= nhap_3:
     print("Số lớn nhất là:", nhap_1)
 elif nhap_2 >= nhap_1 and nhap_2 >= nhap_3:
